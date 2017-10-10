@@ -1,0 +1,76 @@
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    background-color: #141414;
+   
+}
+
+.container {
+    display: flex;
+    background-color: #B5B5B9;
+
+}
+
+.name-container {
+    flex: 1;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.name-container h1 {
+    text-align: right;
+    padding: 10px;
+    
+}
+
+.name-container h2 {
+    padding: 20px;
+}
+
+.resume {
+    flex: 3;
+}
+.resume h3 {
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.resume h4, h5 {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resume p {
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Slabo 27px', serif;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 4em;
+    position: fixed;
+    top: 50%;
+    color: #092442;
+
+
+}
+p {
+    font-family: 'Raleway', sans-serif;
+}
+p1 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 2em;
+    
+}
