@@ -1,15 +1,20 @@
+/*colors #4C5760, #93A8AC, #E9E4D4, #A59E8C, #66635B */
+
+
 .sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     padding: 50px;
-    background-color: #141414;
+    background-color: #66635B; 
+    opacity: 50;
+    
    
 }
 
 .container {
     display: flex;
-    background-color: #B5B5B9;
+    background-color: #A59E8C;
 
 }
 
@@ -36,12 +41,19 @@
 .resume h3 {
     padding: 20px;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    color: #E9E4D4;
+    
+    
 }
 
 .resume h4, h5 {
+    font-family: 'Advent Pro', sans-serif;
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
+    color: #4C5760;
+    font-size: 1.5em;
 }
 
 .resume p {
@@ -54,8 +66,8 @@
 h1 {
     font-family: 'Advent Pro', sans-serif;
     font-size: 4em;
-    position: fixed;
-    top: 50%;
+    position: relative;
+    top: 0;
     color: #092442;
 
 
